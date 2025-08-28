@@ -590,10 +590,15 @@ img {
     color:#ffffff;
 }
 
-::placeholder{
+
+.after-footer-form-div-four.after-footer-form-div-div-textarea::placeholder{
+    color:#2E2F42;
+}
+/*
+.after-footer-form-div-div-textarea::placeholder{
     color:#ffffff;
 }
-
+*/
 .footer-form-submit-button{
     
     /**lesson 5 styles**/
@@ -814,6 +819,10 @@ img {
     justify-content: center; 
 }
 
+.after-footer-form-checkbox-svg{
+    fill:#f4f4fd;
+}
+
 .visually-hidden:checked + .after-footer-form-div-input-label .after-footer-form-div-input-span{
 
     background-color: #404bbf;
@@ -840,6 +849,7 @@ img {
     background-color: #4D5AE5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border:none;
+    border-radius: 4px;
 }
 
 
